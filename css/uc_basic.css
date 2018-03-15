@@ -1,0 +1,141 @@
+/*面包屑导航*/
+#bread_crumb{
+	height:36px;
+	padding-top:10px;
+}
+#bread_crumb a{
+	color:#636363;
+	padding-right:3px;
+}
+/* 盒子 */
+#box{
+	width:1200px;
+	display:flex;
+	justify-content:center;
+	margin:10px;
+}
+/* 侧边 */
+#box aside{
+	width:161px;
+	margin-right:40px;
+}
+#box aside dl{
+	margin-bottom:10px;
+	background:#fff;
+}
+#box aside dt{
+	background:#fe3227;
+	height:38px;
+	color:#fff;
+	font-size:14px;
+	line-height:38px;
+	padding:0 6px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:3px;
+}
+#box aside dt span{
+	padding:0 10px;
+}
+#box aside dt img{
+	vertical-align:middle;
+}
+#box aside dd{
+	height:38px;
+	text-align:center;
+	line-height:38px;
+}
+/* 主体 */
+#box section{
+	width:838px;
+	background:#fff;
+}
+/*头*/
+#box section>p{
+	background-image:linear-gradient(to top,#E7E7E6 0%,#F5F5F5 100%);
+	height:38px;
+	font-size:15px;
+	line-height:38px;
+}
+#box section>p a.active{
+	font-weight:bold;
+}
+#box section>p a{
+	padding:0 22px;
+	color:#333;
+}
+/*身*/
+#box section form{
+	padding:20px 20px 80px;
+	font-size:15px;
+}
+#box section form p{
+	height:58px;
+	line-height:58px;
+	border-bottom:1px solid #ddd;
+	padding:5px 10px;
+}
+#box section form p span{
+	text-align:right;
+	display:inline-block;
+	width:100px;
+}
+#box section form p input{
+	height:30px;
+	width:156px;
+	border:1px solid #ddd;
+	outline:0;
+	font-size:15px;
+}
+#box section form button{
+	height:46px;
+	width:134px;
+	border:1px solid #ff2f2f;
+	outline:0;
+	/*background-image:linear-gradient(to top,#f20b16,#ff2f2f);*/
+	/*color:white;*/
+	border-radius:3px;
+	margin-top:20px;
+	font-size:15px;
+	/*font-weight:bold;*/
+	cursor:pointer;
+	background:#ffeded;
+	color:#ff2f2f;
+}
+#box section form button:hover{
+	background-image:linear-gradient(to top,#f20b16,#ff2f2f);
+	color:white;
+}
+#box section form img{
+	border:1px solid #ead4c6;
+	border-radius:5px;
+	width:65px;
+}
+#box section form p:first-child{
+	padding-bottom:20px;
+}
+#box section form p:first-child img{
+	border:1px solid #ead4c6;
+	border-radius:5px;
+	width:65px;
+}
+#box section form p:first-child a{
+	font-size:12px;
+	color:#636363;
+	padding-left:25px;
+	font-weight:bold;
+}
+#box section form #boy{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background:url('../img/uc/select.png') no-repeat center center;
+	margin-right:5px;
+}
+#box section form #girl{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background:url('../img/uc/un_select.png') no-repeat center center;
+	margin:0 5px 0 20px;
+}
